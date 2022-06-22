@@ -5,14 +5,6 @@ import MovieCard from './MovieCard'
 
 const API_URL = 'http://www.omdbapi.com?apikey=1f44242e';
 
-const movie1 = {
-    Poster: "https://m.media-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_SX300.jpg",
-    Title: "Rocky",
-    Type: "movie",
-    Year: "1976",
-    imdbID: "tt0075148"
-}
-
 const App = () => {
     const [movies, setMovies] = useState();
     const [searchTerm, setSearchTerm] = useState();
